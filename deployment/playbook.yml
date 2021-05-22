@@ -1,0 +1,10 @@
+---
+- name: Install docker into Ubuntu
+  hosts: localhost
+  become: yes
+  gather_facts: yes
+  vars:
+    docker_users:
+      - nbchk
+  roles:
+    - geerlingguy.docker
