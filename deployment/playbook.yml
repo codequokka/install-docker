@@ -1,5 +1,5 @@
 ---
-- name: Install docker into Ubuntu
+- name: Install the docker into localhost
   hosts: localhost
   become: yes
   gather_facts: yes
